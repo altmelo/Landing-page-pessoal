@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        min: width 10px;
+        flex-direction: column;
+      }
+      header, footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="dresses e-commerce party-wear shopping clothes"
+    />
+    <!-- Link da fonte -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+   
+    <!-- Links de estilo -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="icon" href="images/apple.png" />
+    
+    <link href="general.css" type="text/css" rel="stylesheet" />
+    <link href="queries.css" type="text/css" rel="stylesheet" /> 
+
+    <!-- Este é um link de animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+
+    <title>Maurício Melo</title>
+  </head>
+  <body >
+    <div class="overlay"></div>
+    <header class="header">
+     
+        
+        
+        <div class="logo--bars">
+            <button class="navigation-btn " aria-label="navigation open icon">
+                <i class="menu-btn open fas fa-bars"></i>
+
+            <div class="logo logo-hide" >
+                Maurício Melo
+            </div>
+        </div>
+        
+      <!-- log termina aqui  -->
+      <!-- início de navegação -->
+      <div class="main-navigation">
+        
+        <nav>
+        <ul class="main-navigation-list">
+           <li>
+            <div class="logo logo--inner ">
+                
+            </div>
+           </li>
+          <li>
+            <a href="images/Maurício de Melo Marques (2).pdf" class="main-navigation-link nav-active">Currículo</a>
+           </li>
+          </li>
+          <li><a href="https://github.com/altmelo" class="main-navigation-link nav-active">Github</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/maur%C3%ADcio-melo-3016a1211/" class="main-navigation-link nav-active">Linkedin</a>
+          </li>
+          <li><a href="https://w.app/GuKNIt" class="main-navigation-link nav-active">WhastApp</a></li>
+
+          </li>
+        </ul>
+      </div>
+      
+      <div class="cart-container   " id="filled">
+        <p class="cart-name">Cart</p>
+        
+        <div class="cart--line"></div>
+       <div class="fill">
+         <div>
+         <img src="images/" class="cart-thumbnail" alt="added item into cart"></div>
+         <div>
+         <p class="fill--cart"></p>
+         <p class="price--cart"><span class="item--price" > &#36;</span><span class="multi">X </span> <span class="quantity">1</span>  &#36;<span class="total">  1025</span></p>
+        </div>
+      
+       </div>
+      
+       
+       </button>
+
+        
+      </div>
+      
+      
+      </nav>
+     
+    </header>
+    
+    <!-- section  -->
+    <section class="hero-section">
+      <!-- hero container  -->
+      <div class="hero grid grid--two--col">
+            <!-- hero image  -->
+        <div class="hero-images ">
+         <div class="imgesss ">
+          <img src="images/IMG_0013.JPG" class="hero-image slide mobile--slide " alt="dresses image" />
+          <button class="arrow left--arrow" id="mobile--previous" aria-label="arrow icon">
+            <img src="images/icon-previous.svg" class="  previous" alt="previous icon">
+          </button>
+          <button class="arrow right--arrow" id="mobile--next" aria-label="arrow icon" >
+            <img src="images/icon-next.svg" class="next" alt="next icon">
+          </button>
+        </div>
+          <div class="images-container">
+            
+           
+          </div>
+          
+          <!-- pop up container  -->
+          <div class="img-container ">
+            <button class="closeBtn" aria-label="close icon">
+              <img src="images/icon-close.svg" class="  close" alt="close icon ">
+            </button>
+            <img src="images/IMG_0013.JPG" class="overlay-img shown " alt="dresses image" />
+          <img src="images/IMG_0013.JPG" class="overlay-img " alt="dresses image"/>
+          <img src="" class="overlay-img " alt="dresses image" />
+          <img src="" class="overlay-img " alt="dresses image"/>
+            <div class="images-container">
+              <img src="images/IMG_0013.JPG"  class="image-1 overlay-thumb thumbnail-active"alt="dresses image thumbnail">
+              <img src="images/IMG_0120.JPG"  class="image-4 overlay-thumb"alt="dresses image thumbnail">
+             
+            </div>
+            <button class="arrow left--arrow" id="arrow--previous" aria-label="arrow ">
+              <img src="images/icon-previous.svg" class="  previous" alt="previous icon">
+            </button>
+           
+              <img src="images/icon-next.svg" class="next" alt="next icon">
+            </button>
+          </div>
+          
+        </div>
+        <!--caixa de texto  -->
+        <div class="hero-text-box">
+          <div class="padding-left">
+          <span class="subheading">Maurício Melo</span>
+          <h3 class="primary-heading">
+           Programador Front-End
+          </h3>
+          <p class="hero-description">
+            <h6>
+              Objetivo Profissional:
+
+Como graduando em Análise e Desenvolvimento de Sistemas, estou comprometido em buscar constantemente o aprimoramento técnico e profissional na área de Tecnologia da Informação (T.I). Meu objetivo é contribuir de forma significativa para o desenvolvimento de soluções inovadoras que atendam às demandas do mercado e promovam impacto positivo na sociedade.
+            </h6>
+            <h6>
+              Trajetória e Motivação:
+
+Desde cedo, fui fascinado pelo potencial transformador da tecnologia. Minha jornada rumo à programação começou com a curiosidade de entender como as aplicações que utilizava diariamente eram construídas. Esse interesse inicial evoluiu para uma paixão genuína pela lógica de programação e pelo desafio de criar soluções inteligentes para problemas complexos.
+            </h6>
+            <h6>
+              Ao ingressar na graduação em Análise e Desenvolvimento de Sistemas, encontrei um ambiente propício para expandir meus conhecimentos e habilidades. Durante esse percurso acadêmico, pude mergulhar em diversas áreas da T.I., desde o desenvolvimento de software até a análise de sistemas, o que solidificou minha convicção de seguir carreira nesse campo dinâmico e em constante evolução.
+            </h6>
+            <h6>
+              Perspectivas Futuras:
+
+Para o futuro, almejo consolidar minha expertise em desenvolvimento de software, buscando especialização em linguagens e tecnologias relevantes para o mercado, como Python, JavaScript e frameworks modernos de desenvolvimento web. Ao mesmo tempo, pretendo aprofundar meu conhecimento em metodologias ágeis, como Scrum e Kanban, visando aprimorar minha capacidade de gerenciar projetos de forma eficiente e colaborativa.
+            </h6>
+            
+          </p>
+          <div class="mobile-active">
+
+    
+      <div class="attribution"> 
+        Coded by <a href="Maurício Melo">Maurício Melo</a>.
+      </div>
+          </section>
+
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
